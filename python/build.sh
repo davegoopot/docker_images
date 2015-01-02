@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build -t "davegoopot/python" .
+sudo docker build --rm=true -t "davegoopot/python" .
