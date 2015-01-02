@@ -10,4 +10,5 @@ RUN aptitude --assume-yes install git
 RUN aptitude --assume-yes install apt-utils
 RUN aptitude --assume-yes install ncdu
 RUN aptitude --assume-yes install ntp
+RUN aptitude --assume-yes install wget
 
