@@ -9,4 +9,4 @@ RUN dpkg-reconfigure --frontend noninteractive tzdata
 RUN aptitude --assume-yes install git apt-utils ncdu ntp wget
 RUN aptitude --assume-yes install vim
 RUN aptitude --assume-yes install nano
-
+RUN aptitude --assume-yes install unzip
